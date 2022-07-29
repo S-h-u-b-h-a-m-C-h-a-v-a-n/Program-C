@@ -1,11 +1,16 @@
-
-// Driver Code
-int main()
+#include<stdio.h>
+int main ()
 {
-	printf("S");
+	int i,j,k=5;
+	for(i=1;i<=k;++i)
+	{
+		for(j=1;j<=i;++j)
+
+		{
+		printf("*");
+
+		}
+		printf("\n");
+	}
 	return 0;
 }
-
-C:\Users\HP.DESKTOP-ISK321A.000\Documents\Shubham Programe practice\temp.c: In function 'main':
-C:\Users\HP.DESKTOP-ISK321A.000\Documents\Shubham Programe practice\temp.c:5:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
-printf("S");
