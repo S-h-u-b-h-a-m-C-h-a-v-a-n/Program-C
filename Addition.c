@@ -6,6 +6,6 @@ int main()
   printf("\n Enter a Two Value");
   scanf("%d%d",&i,&j );
  c=i+j;
-printf("\n%d",c );
+printf("\n priya %d",c );
 return 0;
 }
